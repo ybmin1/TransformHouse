@@ -1,0 +1,151 @@
+@keyframes explosion {
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1200px) {
+  .triangle-roof {
+    width: 70%;
+    border-top: 0rem solid white;
+    border-left: 0rem solid white;
+    border-right: 0rem solid white;
+    border-bottom: 8rem solid var(--frame-colour);
+  }
+
+  .first-floor {
+  }
+
+  .room1 {
+    .bath {
+      display: none;
+    }
+  }
+
+  .wall1 {
+    /* width: 1.5rem;
+    height: 1.5rem;
+    background-color: black; */
+    /* wall1 사라지지 않고 유지 */
+  }
+
+  .room2 {
+  }
+
+  .ground-floor {
+  }
+
+  .room3 {
+  }
+
+  .wall2 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: black;
+  }
+
+  .plant6 {
+    height: 8rem !important;
+    transform: rotate(12deg);
+  }
+
+  .plant7 {
+    height: 6.5rem !important;
+  }
+
+  .fireplace-wrapper {
+    display: none;
+  }
+
+  .bubble1,
+  .bubble2,
+  .bubble3,
+  .bubble4,
+  .bubble5,
+  .bubble6 {
+    /* transform: scale(2) !important; */
+    animation: explosion 2s ease forwards;
+  }
+
+  .bubble-common-part1 {
+    background-color: lightgray;
+  }
+  .bubble-common-part2 {
+    background-color: white;
+  }
+  .bubble-common-part3 {
+    background-color: lightgray;
+  }
+  .bubble-common-part4 {
+    background-color: lightgray;
+  }
+  .bubble-common-part5 {
+    background-color: white;
+  }
+  .bubble-common-part6 {
+    background-color: white;
+  }
+
+  .sofa2 {
+    display: none;
+  }
+
+  .room4 {
+  }
+
+  .freeze {
+    display: none;
+  }
+}
+
+@media (max-width: 1120px) {
+  .room2 .bed-table:first-child {
+    display: none; /* 첫 번째 bed-table 숨기기 */
+  }
+
+  .fireplace {
+    display: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .dining-chair2 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 950px) {
+  /* .living-room-wall {
+    position: relative;
+  } */
+  .dining-table-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .bed-table:nth-child(3) {
+    display: none;
+  }
+
+  .floor-lamp {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .towel {
+    display: none;
+  }
+
+  .table {
+    display: none;
+  }
+}
