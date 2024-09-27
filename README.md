@@ -29,4 +29,3 @@ Yebin Min
 <br>
 <br>
 
-## App Screenshots
